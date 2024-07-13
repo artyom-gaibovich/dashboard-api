@@ -2,7 +2,7 @@ import {BaseController} from "../common/base.controller";
 import {LoggerService} from "../logger/logger.service";
 import {NextFunction, Request, Response} from "express";
 
-export class UsersController extends BaseController {
+export class UserController extends BaseController {
     constructor(logger : LoggerService) {
         super(logger);
         this.bindRoutes([
