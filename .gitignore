@@ -6,6 +6,7 @@
 # Logs
 logs
 *.log
+*.mp4
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
@@ -22,6 +23,7 @@ lerna-debug.log*
 # IDEs and editors
 /.idea
 .project
+/.clinic
 .classpath
 .c9/
 *.launch
